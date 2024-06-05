@@ -1,9 +1,13 @@
 {
-  "name": "quiz-system",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@amjad_bhutto/quiz-system",
+  "version": "1.0.2",
+  "description": "CLI based Quiz System",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +19,7 @@
     "@types/inquirer": "^9.0.7"
   },
   "dependencies": {
+    "@amjad_bhutto/quiz-system": "^1.0.2",
     "chalk": "^5.3.0"
   }
 }
